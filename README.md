@@ -1,5 +1,6 @@
 ### Date created
 25th November 2019
+Updated on 30th November 2019
 
 ### Project Title
 Bikeshare Project
@@ -11,4 +12,4 @@ This is a python file that provides bikeshare data to explore for users. This da
 The files used are bikeshare.py
 
 ### Credits
-I checked Python websites
+Credit to Udacity.com
