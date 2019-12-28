@@ -22,25 +22,25 @@ def get_filters():
     WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
     # User input for city (chicago, new york city, washington). Invalid inputs are caught using an if loop.
-    city = input('Enter name of a city: ').lower()
+    city = input('Enter name of a city (Note: only chicago, nyc and washington available at this time): ').lower()
 
     while True:
         if city in CITY_DATA:
             break
         else:
             print('Sorry, data not available for that city')
-            city = input('Enter name of a city: ').lower()
+            city = input('Enter name of a city (Note: only chicago, nyc and washington available at this time): ').lower()
 
     # Get user input for month (all, january, february, ... , june). Invalid inputs are caught using an if loop.
 
-    month = input('Choose month: ').lower()
+    month = input('Choose month (Note: only jan to jun available at this time): ').lower()
 
     while True:
         if month in MONTHS:
             break
         else:
             print('Sorry, data not available for that month')
-            month = input('Choose month: ').lower()
+            month = input('Choose month (Note: only jan to jun available at this time): ').lower()
 
     # Get user input for day of week (all, monday, tuesday, ... sunday). Invalid inputs are caught using an if loop.
 
